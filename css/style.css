@@ -56,8 +56,15 @@ body {
   .menu-icon svg, .close-icon svg {
     width: 20px;
     height: 20px;
+    font-size: 20px !important;
     padding: 5px;
   }
+  .icon-large {
+    font-size: 30px; /* Adjust the size as needed */
+  }
+.icon-sm{
+    font-size: 1.5rem;
+}
   
   .menu {
     position: fixed;
