@@ -297,7 +297,6 @@ body {
   }
   
   .text-content {
-    order: 2;
     text-align: center;
     margin-top: 2.5rem;
   }
@@ -383,9 +382,7 @@ body {
     background-color: #62efd7;
   }
   
-  .image-container {
-    order: 1;
-  }
+ 
   
   .image-container img {
     width: 80%;
@@ -398,13 +395,12 @@ body {
     }
   
     .text-content {
-      order: 1;
       text-align: left;
       margin-top: 0;
     }
   
     .image-container {
-      order: 2;
+      
       flex: 1;
     }
   
