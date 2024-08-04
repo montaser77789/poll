@@ -278,4 +278,137 @@ body {
         justify-content: center;
       }
   }
+  /* `///////////////////////////// */
+  .about-section {
+    background-color: #f7fafc;
+    padding: 4rem 0;
+  }
   
+  .container {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .text-content {
+    order: 2;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .sec-heading {
+    margin-bottom: 1.5rem;
+  }
+  
+  .pre-title {
+    color: #319795;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .sec-heading h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hollow-text {
+    border-bottom: 2px solid #2d3748;
+  }
+  
+  .featured-text {
+    color: #4299e1;
+  }
+  
+  .about-text {
+    color: #4a5568;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-items-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .info-item i {
+    color: #4299e1;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .info-content {
+    text-align: left;
+  }
+  
+  .info-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+  }
+  
+  .info-text {
+    color: #718096;
+  }
+  
+  .cta-area {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .btn-solid {
+    background-color: #00e8c1;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-solid:hover {
+    background-color: #62efd7;
+  }
+  
+  .image-container {
+    order: 1;
+  }
+  
+  .image-container img {
+    width: 80%;
+    border-radius: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .content-wrapper {
+      flex-direction: row;
+    }
+  
+    .text-content {
+      order: 1;
+      text-align: left;
+      margin-top: 0;
+    }
+  
+    .image-container {
+      order: 2;
+      flex: 1;
+    }
+  
+    .info-items-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
