@@ -5,7 +5,7 @@ body {
   }
   
   .navbar {
-    background: linear-gradient(to right, #ff4500, #ff69b4); /* برتقالي وزهري */
+    background: linear-gradient(to right, #fe0dcb, #ff69b4); /* برتقالي وزهري */
     padding: 1rem;
     position: fixed;
     top: 0;
@@ -72,7 +72,7 @@ body {
     left: 0;
     width: 100%;
     height: 50vh;
-    background: linear-gradient(to right, #ff4500, #ff69b4); /* برتقالي وزهري */
+    background: linear-gradient(to right, #fe0dcb, #ff69b4); /* برتقالي وزهري */
     display: none;
     flex-direction: column;
     align-items: center;
@@ -174,7 +174,7 @@ body {
     align-items: center;
     justify-content: center; /* Center vertically */
     min-height: 100vh;
-    background: linear-gradient(to right, #FF6F61, #FFB6C1); /* Orange and pink gradient */
+    background: linear-gradient(to right, #fe0dcb, #ff69b4); /* برتقالي وزهري */
     padding: 4rem 0; /* Adjusted padding for better spacing */
     box-sizing: border-box;
   }
