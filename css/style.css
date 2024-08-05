@@ -201,7 +201,7 @@ body {
     transition: transform 0.5s;
     border: 3px solid #fff; /* تعديل لون وسمك الإطار هنا */
     text-align: center;
-    padding: 10px  0;
+    padding: 5px  0;
     height: 100%;
   }
   .review-section h2 {
@@ -285,6 +285,10 @@ body {
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+  }
+  .btn-learn-more a {
+    color: #fff;
+    text-decoration: none;
   }
   
   .btn-learn-more:hover {
