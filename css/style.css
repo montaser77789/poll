@@ -435,8 +435,14 @@ body {
     color: #333;
   }
   .marquee-content span img{
-   width: 100px;
+   width: 130px;
    height: 100px;
+  }
+  .marquee  .marquee-title{
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 800;
   }
   
   @keyframes marquee {
