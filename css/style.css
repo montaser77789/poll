@@ -22,8 +22,8 @@ body {
   }
   
   .logo {
-    color: #fff; /* نص أسود */
-    font-size: 2rem;
+    color: #ef3529; /* نص أسود */
+    font-size: 3rem;
     text-decoration: none;
     animation: fadeInDown 1s;
   }
