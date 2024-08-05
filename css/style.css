@@ -28,11 +28,7 @@ body {
     animation: fadeInDown 1s;
   }
   
-  .social-icons {
-    display: flex;
-    align-items: center;
-    width: 200px;
-  }
+
   
   .icon {
     color: #ffffff; /* أبيض */
@@ -106,13 +102,7 @@ body {
     top: 10px;
     right: 10px;
   }
- .mobile {
-    display: block;
-  }
-  
- .desktop {
-    display: none;
-  }
+
   
   @media (min-width: 768px) {
     .menu {
@@ -122,14 +112,9 @@ body {
       background: none;
       flex-direction: row;
     }
-  .mobile {
-        display: none;
-      }
+ 
     
-   .desktop {
-        display: block;
-      }
-    
+ 
     .menu ul {
       display: flex;
       gap: 1rem;
@@ -174,27 +159,31 @@ body {
     align-items: center;
     justify-content: center; /* Center vertically */
     min-height: 100vh;
-    background: linear-gradient(to right, #fe0dcb, #ff69b4); /* برتقالي وزهري */
+    background: linear-gradient(to right, #ff9ff3, #ff69b4, #ff1493); /* تدرج الألوان الثلاثي */
     padding: 4rem 0; /* Adjusted padding for better spacing */
     box-sizing: border-box;
   }
   
   .image-container {
-    text-align: center;
-    margin-top: 1.5rem;
-    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
   
- .image-container .image {
-    border-radius: 5px;
-    width: 60% ; /* Take half the screen on larger screens */
+  .image-container img {
+    border-radius: 10px;
+    width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.5s;
+    border: 3px solid #fff; /* تعديل لون وسمك الإطار هنا */
+
   }
   
-  .image:hover {
+  .image-container img:hover {
     transform: scale(1.05);
   }
+  
   
   .text-content {
     text-align: center;
@@ -204,39 +193,33 @@ body {
   }
   
   .text-content h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 2em;
+    margin-bottom: 20px;
   }
   
   .text-content h2 {
-    font-size: 1.125rem;
-    color: #d3d3d3;
-    margin-bottom: 1.5rem;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
   }
   
   .buttons {
-    display: flex;
-    justify-content: start;
+    margin-top: 20px;
   }
   
-  .btn-learn-more, .btn-get-started {
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    padding: 0.75rem 2rem;
+  .btn-learn-more {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
     border: none;
-    border-radius: 1rem;
+    border-radius: 20px;
     cursor: pointer;
-    margin-right: 1rem;
+    transition: background-color 0.3s;
   }
   
-  .btn-learn-more:hover, .btn-get-started:hover {
-    background-color: #62efd7;
-  }
-  
-  .btn-get-started {
-    margin-right: 0;
+  .btn-learn-more:hover {
+    background-color: #0056b3;
   }
   
   @media (min-width: 768px) {
@@ -385,8 +368,13 @@ body {
  
   
   .image-container img {
-    width: 80%;
-    border-radius: 0.5rem;
+    margin-top: 20px;
+    width: 90%;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s;
+    border: 3px solid #fff;
   }
   
   @media (min-width: 768px) {
