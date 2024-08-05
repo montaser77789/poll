@@ -235,16 +235,19 @@ body {
 }
 
 .trustpilot-logo {
-    width: 200px; /* Adjust size as needed */
-    height: auto;
+    width: 200px !important; /* Adjust size as needed */
+    height: 180px !important;
 }
   .image-container img {
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.5s;
     border: 3px solid #fff; /* تعديل لون وسمك الإطار هنا */
 
+  }
+  .image-container a {
+    width: 100%;
   }
   
   .image-container .review-section:hover {
@@ -323,7 +326,7 @@ body {
     margin-top: 20px;
       width: 100%; /* Adjust for smaller screens */
     }
-    .image-container  img {
+    .image-container a  {
       margin-top: 20px;
         width: 100%; /* Adjust for smaller screens */
       }
@@ -446,12 +449,15 @@ body {
   }
   .image-container img {
     margin-top: 20px;
-    width: 90%;
    
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.5s;
     border: 3px solid #fff;
+  }
+  .image-container  a{
+    width: 90%;
+
   }
   
   @media (min-width: 768px) {
